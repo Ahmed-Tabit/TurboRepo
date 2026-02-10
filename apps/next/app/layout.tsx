@@ -27,4 +27,3 @@ const RootLayout: FC<{ children: ReactNode }> = ({ children }) => {
 };
 
 export default RootLayout;
-

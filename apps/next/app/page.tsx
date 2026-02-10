@@ -1,7 +1,7 @@
 'use client'
 
 import type { FC } from "react";
-import { Button } from "@repo/ui";
+import { Button } from "@repo/ui/button";
 
 const onClick = () => {
     alert("I'm a shared component!");
