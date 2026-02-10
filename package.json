@@ -8,11 +8,6 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types"
   },
-  "devDependencies": {
-    "prettier": "^3.7.4",
-    "turbo": "^2.8.3",
-    "typescript": "5.9.2"
-  },
   "packageManager": "pnpm@9.0.0",
   "engines": {
     "node": ">=18"
@@ -22,5 +17,16 @@
     "react": "^19.2.0",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4",
+    "turbo": "^2.8.3",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "typescript": "5.9.2",
+    "@types/react": "19.2.0",
+    "@types/react-dom": "19.2.0",
+    "@types/node": "^24.10.1",
+    "eslint": "^9.39.1"
   }
 }
